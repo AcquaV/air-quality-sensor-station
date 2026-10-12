@@ -671,7 +671,7 @@
         "uuid": "449a9406-99e2-4e5e-9f43-ae6a436c1b76"
       }
     ],
-    "used_designators": "USB1,R1-4,U1-2,D1,C1-3,USBC1",
+    "used_designators": "USB1,R1-6,U1-6,D1,C1-10,USBC1,CN1,SW1-2",
     "variants": []
   },
   "sheets": [
