@@ -137,6 +137,356 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:AFC01-S12FCA-00"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FPC1"
+				(at 8.89 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AFC01-S12FCA-00"
+				(at 8.89 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C262661_FPC-SMD_AFC01-S12FCA-00"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFC01-S12FCA-00_C262661.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "AFC01-S12FCA-00"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C262661"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JS(钜硕电子)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AFC01-S12FCA-00_1_1"
+				(rectangle
+					(start -2.54 21.59)
+					(end 7.62 -21.59)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 13.97 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 8.89 0)
+					(length 5.08)
+					(name "RS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 6.35 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 3.81 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 1.27 0)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -1.27 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -3.81 0)
+					(length 5.08)
+					(name "IO_VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -6.35 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -8.89 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -11.43 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -13.97 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 19.05 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -19.05 0)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 11.43 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "CS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:ESP32-S3-WROOM-1-N4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1729,12 +2079,6 @@
 		(uuid "3a95db46-51a3-4471-8dcd-efbce61f785d")
 	)
 	(junction
-		(at 172.72 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bcadc3a-703c-4ac0-8169-67287f642b48")
-	)
-	(junction
 		(at 128.27 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1747,28 +2091,28 @@
 		(uuid "51517037-8fed-468f-8161-eec38e5284d7")
 	)
 	(junction
-		(at 180.34 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5204dc5a-ec1f-476f-85ed-85e075fc81c8")
-	)
-	(junction
 		(at 128.27 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66ada31f-e8fd-4297-a5df-22472bd6dd4b")
 	)
 	(junction
-		(at 190.5 97.79)
+		(at 170.18 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72e698d0-dc1a-465a-bef0-d92c04a9ba28")
+		(uuid "6c68c920-8dbf-41b7-8440-633aab57adc5")
 	)
 	(junction
 		(at 102.87 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85726ffd-3124-48d7-818c-891c12f9bb9f")
+	)
+	(junction
+		(at 170.18 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b7810e-8072-4d19-8e7b-968588403883")
 	)
 	(junction
 		(at 137.16 120.65)
@@ -1822,16 +2166,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 97.79) (xy 190.5 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f6dccbb-9a8e-4597-bd65-789b4bd17f50")
-	)
-	(wire
-		(pts
 			(xy 166.37 59.69) (xy 166.37 64.77)
 		)
 		(stroke
@@ -1882,16 +2216,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 102.87) (xy 182.88 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26fd1984-efcb-4bac-96bd-8b638a3df7ef")
-	)
-	(wire
-		(pts
 			(xy 102.87 110.49) (xy 119.38 110.49)
 		)
 		(stroke
@@ -1919,6 +2243,16 @@
 			(type default)
 		)
 		(uuid "2d7ee071-2b1d-4001-9821-700b1fcbd55a")
+	)
+	(wire
+		(pts
+			(xy 161.29 97.79) (xy 170.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301bb9cd-4e81-4c34-9e0c-8f7f34a0ea10")
 	)
 	(wire
 		(pts
@@ -1952,16 +2286,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 92.71) (xy 190.5 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44edbd0e-a108-4641-87a1-30def6fbcb34")
-	)
-	(wire
-		(pts
 			(xy 128.27 85.09) (xy 128.27 88.9)
 		)
 		(stroke
@@ -1969,6 +2293,16 @@
 			(type default)
 		)
 		(uuid "4518a7bd-cf76-4ced-9847-dc5487695b35")
+	)
+	(wire
+		(pts
+			(xy 175.26 107.95) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4867c83a-373a-488f-a535-b0cb15948d22")
 	)
 	(wire
 		(pts
@@ -1982,16 +2316,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 180.34 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53e83d84-3f37-4dbf-b243-733499476425")
-	)
-	(wire
-		(pts
 			(xy 138.43 69.85) (xy 135.89 69.85)
 		)
 		(stroke
@@ -2002,13 +2326,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 92.71) (xy 190.5 97.79)
+			(xy 170.18 100.33) (xy 165.1 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ceae86e-9114-4348-bcaa-546c0bce6876")
+		(uuid "5c46285e-f32d-4d3d-a26d-6bb995d0a8b3")
 	)
 	(wire
 		(pts
@@ -2032,6 +2356,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 100.33) (xy 175.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6325699b-0c86-4a73-9699-bcd1bac19a5b")
+	)
+	(wire
+		(pts
+			(xy 165.1 110.49) (xy 165.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d3ff62-d310-4593-8906-89799c77701a")
+	)
+	(wire
+		(pts
 			(xy 133.35 67.31) (xy 138.43 67.31)
 		)
 		(stroke
@@ -2049,6 +2393,16 @@
 			(type default)
 		)
 		(uuid "7d86047d-85a0-4556-9ccb-3b2f296b150b")
+	)
+	(wire
+		(pts
+			(xy 170.18 100.33) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa1f628-3c14-4696-8406-598d6b826d50")
 	)
 	(wire
 		(pts
@@ -2082,16 +2436,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 102.87) (xy 190.5 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819fdc4b-71fa-44c6-9007-dcdec4b0e3ca")
-	)
-	(wire
-		(pts
 			(xy 97.79 74.93) (xy 102.87 74.93)
 		)
 		(stroke
@@ -2109,26 +2453,6 @@
 			(type default)
 		)
 		(uuid "8c4f84f8-9b6e-4317-a1cd-72cd2ad1a752")
-	)
-	(wire
-		(pts
-			(xy 180.34 92.71) (xy 182.88 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "923725f3-765f-4178-b08c-7c5b26cc3c3d")
-	)
-	(wire
-		(pts
-			(xy 190.5 97.79) (xy 190.5 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "953b9e25-3765-4cf0-93cd-8917c2fde071")
 	)
 	(wire
 		(pts
@@ -2152,6 +2476,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 97.79) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c81699-11c2-4595-8094-6ec5ea119c93")
+	)
+	(wire
+		(pts
 			(xy 132.08 100.33) (xy 132.08 95.25)
 		)
 		(stroke
@@ -2159,6 +2493,16 @@
 			(type default)
 		)
 		(uuid "b4c1d1f7-e87c-4a0d-837b-748a4e8701d9")
+	)
+	(wire
+		(pts
+			(xy 175.26 110.49) (xy 165.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d26655-107e-4b51-8d4e-de208f626469")
 	)
 	(wire
 		(pts
@@ -2172,7 +2516,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 85.09) (xy 172.72 87.63)
+			(xy 170.18 86.36) (xy 170.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2282,6 +2626,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 100.33) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e744f679-7693-404d-8578-3d54205816b7")
+	)
+	(wire
+		(pts
 			(xy 128.27 64.77) (xy 128.27 67.31)
 		)
 		(stroke
@@ -2322,16 +2676,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 180.34 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9235dd9-35da-4cdb-b232-ce898cf5436a")
-	)
-	(wire
-		(pts
 			(xy 135.89 110.49) (xy 135.89 115.57)
 		)
 		(stroke
@@ -2339,16 +2683,6 @@
 			(type default)
 		)
 		(uuid "fa17c5df-a2e6-4eb3-8b21-6867a2ef5f83")
-	)
-	(wire
-		(pts
-			(xy 180.34 97.79) (xy 180.34 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa208445-b38a-4e52-890f-0a9e5f3dc63a")
 	)
 	(wire
 		(pts
@@ -2362,17 +2696,17 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 193.04 97.79 0)
+		(at 170.18 110.49 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0bdf651a-37d5-4422-bb79-6379e6a8cae6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8957 97.79 0)
+			(at 170.18 117.3457 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2380,7 +2714,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -2530,7 +2864,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 172.72 85.09 0)
+		(at 170.18 86.36 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2540,7 +2874,7 @@
 		)
 		(uuid "bbabd5d3-1a9e-4f14-8e81-9f127649055f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2128 85.09 0)
+			(at 170.18 79.8672 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2681,7 +3015,7 @@
 	)
 	(symbol
 		(lib_id "lscs:HX_3X4X2_5-PA-4N_PUSH_BUTTON_SWITCH")
-		(at 185.42 97.79 90)
+		(at 170.18 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2691,7 +3025,7 @@
 		(dnp no)
 		(uuid "1e3a5c0e-d059-4556-a968-7062696c7da2")
 		(property "Reference" "SW1"
-			(at 187.706 103.886 90)
+			(at 164.084 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2702,7 +3036,7 @@
 			)
 		)
 		(property "Value" "BOOT"
-			(at 181.61 96.5201 90)
+			(at 171.4499 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2714,7 +3048,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C55200589_SW-SMD_4P-L4_2-W3_4-P2_15-LS5_2"
-			(at 195.58 97.79 0)
+			(at 170.18 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2725,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" "None"
-			(at 185.293 100.076 0)
+			(at 167.894 105.283 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2736,7 +3070,7 @@
 			)
 		)
 		(property "Description" "HX 3X4X2.5-PA-4N PUSH BUTTON SWITCH"
-			(at 185.42 97.79 0)
+			(at 170.18 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,7 +3081,7 @@
 			)
 		)
 		(property "LCSC" "C55200589"
-			(at 185.42 97.79 0)
+			(at 170.18 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2758,7 +3092,7 @@
 			)
 		)
 		(property "Manufacturer" "hanxia(韩下)"
-			(at 185.42 97.79 0)
+			(at 170.18 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2791,7 +3125,7 @@
 	)
 	(symbol
 		(lib_id "lscs:10KΩ_(103)_±5%")
-		(at 172.72 92.71 90)
+		(at 170.18 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2801,7 +3135,7 @@
 		(dnp no)
 		(uuid "2515e26e-923f-4aef-83bc-473c846ab348")
 		(property "Reference" "R4"
-			(at 168.402 91.694 90)
+			(at 166.878 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2811,7 +3145,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 168.402 94.234 90)
+			(at 166.878 94.234 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2821,7 +3155,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C1489_R1206"
-			(at 182.88 92.71 0)
+			(at 180.34 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2832,7 +3166,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-1206W4J0103T5E_C1489.pdf"
-			(at 172.593 94.996 0)
+			(at 170.053 94.996 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2843,7 +3177,7 @@
 			)
 		)
 		(property "Description" "10KΩ (103) ±5%"
-			(at 172.72 92.71 0)
+			(at 170.18 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2854,7 +3188,7 @@
 			)
 		)
 		(property "LCSC" "C1489"
-			(at 172.72 92.71 0)
+			(at 170.18 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2865,7 +3199,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 172.72 92.71 0)
+			(at 170.18 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3091,6 +3425,146 @@
 			(project "Air_Quality"
 				(path "/0b624a1d-bb2a-4c00-924f-dff44dc19c25"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:AFC01-S12FCA-00")
+		(at 217.17 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470a5bab-0c43-48fe-9148-4a0dd3a25e85")
+		(property "Reference" "FPC1"
+			(at 226.06 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AFC01-S12FCA-00"
+			(at 226.06 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C262661_FPC-SMD_AFC01-S12FCA-00"
+			(at 217.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFC01-S12FCA-00_C262661.pdf"
+			(at 214.884 88.773 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AFC01-S12FCA-00"
+			(at 217.17 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C262661"
+			(at 217.17 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JS(钜硕电子)"
+			(at 217.17 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "bd2f9b7b-eacc-47f6-aaa8-2d802fc48440")
+		)
+		(pin "CS"
+			(uuid "8d609028-e5de-46a0-a8b7-aff434bba32c")
+		)
+		(pin "4"
+			(uuid "4fdc8c2c-20f9-4413-a02e-fe1cebb128c9")
+		)
+		(pin "5"
+			(uuid "fcf89165-1c14-4701-a47f-a816f08ed050")
+		)
+		(pin "11"
+			(uuid "41709845-93b1-495e-890a-fce1c027d201")
+		)
+		(pin "8"
+			(uuid "34a7b11d-0bbb-4c31-9991-e3450d6dc36e")
+		)
+		(pin "1"
+			(uuid "f31faaa7-a6dd-48ec-8f6f-072e8ab7e851")
+		)
+		(pin "7"
+			(uuid "dc9efcef-68b2-4d7f-9495-b415b98653ec")
+		)
+		(pin "3"
+			(uuid "26d4aa31-eff8-4ebf-a317-539382d1dd35")
+		)
+		(pin "10"
+			(uuid "7d65318e-17ed-4f08-9be2-1b99dc3a357e")
+		)
+		(pin "9"
+			(uuid "106ac06a-b575-48e2-8704-d78419cecb59")
+		)
+		(pin "12"
+			(uuid "a28bed65-9980-4ac4-9ce3-3c2d12f862e4")
+		)
+		(pin "14"
+			(uuid "f33f3cd4-506e-4456-8053-7834384cf005")
+		)
+		(pin "13"
+			(uuid "23d55019-3452-40ec-ab39-4b727b2ae1d3")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/0b624a1d-bb2a-4c00-924f-dff44dc19c25"
+					(reference "FPC1")
 					(unit 1)
 				)
 			)
