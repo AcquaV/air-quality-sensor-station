@@ -5,6 +5,307 @@
 	(uuid "d4b84b33-3074-48e5-a047-e546c4d0916b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "lcsc_imported:0603WAF5101T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF5101T5E"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C23186_R0603"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0603WAF5101T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C23186"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF5101T5E_1_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:22uF_(226)_±10%_10V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22uF (226) ±10% 10V"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C5672_C1206"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810221121_Samsung-Electro-Mechanics-CL31A226KPHNNNE_C5672.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "22uF (226) ±10% 10V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5672"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "22uF_(226)_±10%_10V_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:电源芯片"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -511,307 +812,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lscs:22uF_(226)_±10%_10V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22uF (226) ±10% 10V"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C1859_C1206"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206X226K100NT_C1859.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "22uF (226) ±10% 10V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C1859"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "FH(风华)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "22uF_(226)_±10%_10V_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.032) (xy -0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lscs:5_1KΩ_(512)_±5%"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "5.1KΩ (512) ±5%"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C14677_R0603"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810241812_YAGEO-RC0603JR-075K1L_C14677.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "5.1KΩ (512) ±5%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C14677"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "5_1KΩ_(512)_±5%_1_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lscs:TYPE-C-31-M-12"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1222,7 +1222,7 @@
 		(uuid "2d0ac627-0697-4889-85a0-9a0a1216b0aa")
 	)
 	(junction
-		(at 130.81 96.52)
+		(at 128.27 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3117ccb5-9c6d-4181-b178-81c52ed78114")
@@ -1232,12 +1232,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f47fcd7-3e23-4120-85d6-ccefd372e287")
-	)
-	(junction
-		(at 128.27 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "898ae32f-aa17-4621-9801-d37e0ecf3016")
 	)
 	(junction
 		(at 107.95 91.44)
@@ -1250,6 +1244,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ffa2547-9eed-42e1-8ed7-6ab77c76c504")
+	)
+	(junction
+		(at 127 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a42a8531-bfa3-4ccd-90e1-42cebf6e90a9")
 	)
 	(junction
 		(at 149.86 109.22)
@@ -1297,13 +1297,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 96.52) (xy 128.27 100.33)
+			(xy 127 101.6) (xy 143.51 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "036c7955-e7f9-4747-857a-1452b512597b")
+		(uuid "00c68601-5506-4046-983b-5bc61950e70c")
 	)
 	(wire
 		(pts
@@ -1367,13 +1367,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 130.81 99.06)
+			(xy 127 96.52) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32c72804-7495-41ea-8ab1-cca38e0f8bfa")
+		(uuid "2fa4e58c-310c-4fd0-a9ab-b105eb6e2b61")
 	)
 	(wire
 		(pts
@@ -1397,17 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 100.33) (xy 143.51 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cc5f7f1-9b57-4120-85d1-6349f16f2ad0")
-	)
-	(wire
-		(pts
-			(xy 130.81 99.06) (xy 125.73 99.06)
+			(xy 128.27 99.06) (xy 125.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1487,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 146.05 114.3)
+			(xy 146.05 99.06) (xy 146.05 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1517,13 +1507,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 100.33) (xy 143.51 119.38)
+			(xy 143.51 101.6) (xy 143.51 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e1fa5df-c468-4a72-8fa6-46933784afe4")
+	)
+	(wire
+		(pts
+			(xy 128.27 99.06) (xy 146.05 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c2c1b7-53c7-4a54-bb83-14916cf0e9fd")
 	)
 	(wire
 		(pts
@@ -1617,7 +1617,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 96.52) (xy 128.27 96.52)
+			(xy 125.73 96.52) (xy 127 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1637,23 +1637,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 93.98) (xy 130.81 96.52)
+			(xy 128.27 93.98) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4389b81-1376-403f-b850-081de3974f35")
-	)
-	(wire
-		(pts
-			(xy 128.27 100.33) (xy 128.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baea4d87-b986-4962-8c3e-ba4a7cdb42e3")
+		(uuid "b4ed4e8a-acd6-43eb-8de0-bdfdad7ca776")
 	)
 	(wire
 		(pts
@@ -1667,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 130.81 93.98)
+			(xy 125.73 93.98) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1677,7 +1667,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 128.27 101.6)
+			(xy 125.73 101.6) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1717,23 +1707,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 114.3) (xy 214.63 114.3)
+			(xy 146.05 116.84) (xy 214.63 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1c7a284-1d1e-440a-a4aa-21712837edc5")
-	)
-	(wire
-		(pts
-			(xy 130.81 96.52) (xy 146.05 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d95ccc16-de18-44d1-aa67-03b1c09e4768")
 	)
 	(wire
 		(pts
@@ -1787,7 +1767,7 @@
 	)
 	(global_label "USB_DATA+"
 		(shape output)
-		(at 214.63 114.3 0)
+		(at 214.63 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1797,7 +1777,7 @@
 		)
 		(uuid "8b9b4004-6b6c-41ad-b364-777577a29656")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.38 114.3 0)
+			(at 228.38 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2261,8 +2241,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lscs:22uF_(226)_±10%_10V")
-		(at 208.28 93.98 270)
+		(lib_id "lcsc_imported:0603WAF5101T5E")
+		(at 133.35 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2270,31 +2250,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "12a65f7a-ad83-42c8-b2c6-7a715558f323")
-		(property "Reference" "C2"
-			(at 211.328 92.71 90)
+		(uuid "1d9ee3df-3876-490b-90fb-b3c252f41e21")
+		(property "Reference" "R7"
+			(at 133.35 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 210.82 94.996 90)
+		(property "Value" "5.1K"
+			(at 133.35 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C1859_C1206"
-			(at 198.12 93.98 0)
+		(property "Footprint" "lcsc_footprints:C23186_R0603"
+			(at 133.35 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2304,8 +2282,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206X226K100NT_C1859.pdf"
-			(at 208.407 91.694 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf"
+			(at 131.064 88.773 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2315,8 +2293,8 @@
 				)
 			)
 		)
-		(property "Description" "22uF (226) ±10% 10V"
-			(at 208.28 93.98 0)
+		(property "Description" "0603WAF5101T5E"
+			(at 133.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2326,8 +2304,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C1859"
-			(at 208.28 93.98 0)
+		(property "LCSC" "C23186"
+			(at 133.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2337,8 +2315,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FH(风华)"
-			(at 208.28 93.98 0)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 133.35 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2349,15 +2327,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "97edd21c-6496-4ba3-a3e3-3b8bd9d3c351")
+			(uuid "9d12fe28-8311-4954-992f-82f7ca1f6707")
 		)
 		(pin "1"
-			(uuid "1f0fae9d-a259-4ae5-afc4-ac634de18969")
+			(uuid "636b17f0-f250-4b4a-8b82-27d9f34cf4ff")
 		)
 		(instances
 			(project "Air_Quality"
 				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
-					(reference "C2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2467,7 +2445,111 @@
 		)
 	)
 	(symbol
-		(lib_id "lscs:5_1KΩ_(512)_±5%")
+		(lib_id "lcsc_imported:22uF_(226)_±10%_10V")
+		(at 208.28 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f726718-dcf2-4a18-ba9d-73478829cc10")
+		(property "Reference" "C9"
+			(at 212.09 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 212.09 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C5672_C1206"
+			(at 218.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810221121_Samsung-Electro-Mechanics-CL31A226KPHNNNE_C5672.pdf"
+			(at 208.153 96.266 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22uF (226) ±10% 10V"
+			(at 208.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5672"
+			(at 208.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 208.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "233bd0ad-2faf-441c-943e-bdc19f797db2")
+		)
+		(pin "2"
+			(uuid "7b07bc25-6fb1-4e82-b1ef-7250b3ba7ee1")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:0603WAF5101T5E")
 		(at 133.35 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -2476,8 +2558,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6204e635-257e-4787-ac5c-ba994fd694d4")
-		(property "Reference" "R1"
+		(uuid "75d4d2f9-9fcb-45aa-98cc-5be3a4563096")
+		(property "Reference" "R8"
 			(at 133.35 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2488,7 +2570,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 133.096 108.204 0)
+			(at 133.35 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2497,7 +2579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C14677_R0603"
+		(property "Footprint" "lcsc_footprints:C23186_R0603"
 			(at 133.35 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2508,7 +2590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810241812_YAGEO-RC0603JR-075K1L_C14677.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf"
 			(at 131.064 104.013 0)
 			(hide yes)
 			(show_name no)
@@ -2519,7 +2601,7 @@
 				)
 			)
 		)
-		(property "Description" "5.1KΩ (512) ±5%"
+		(property "Description" "0603WAF5101T5E"
 			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2530,7 +2612,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14677"
+		(property "LCSC" "C23186"
 			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2541,7 +2623,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2553,116 +2635,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fcbf582b-3912-417f-99c5-32560bf07479")
+			(uuid "e09ea8a3-08d2-4974-9a77-b68df912b7f3")
 		)
 		(pin "1"
-			(uuid "78d6cf41-13c3-498a-9a48-41b1c1bfdae7")
+			(uuid "d0dcaf3c-4683-424a-af6b-cf6db9347a53")
 		)
 		(instances
 			(project "Air_Quality"
 				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lscs:5_1KΩ_(512)_±5%")
-		(at 133.35 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9846fad2-5492-4345-8e7a-ce234f756881")
-		(property "Reference" "R2"
-			(at 133.35 90.932 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 133.604 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C14677_R0603"
-			(at 133.35 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810241812_YAGEO-RC0603JR-075K1L_C14677.pdf"
-			(at 131.064 88.773 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "5.1KΩ (512) ±5%"
-			(at 133.35 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14677"
-			(at 133.35 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 133.35 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0c0362fe-6611-4222-898e-6896e7769308")
-		)
-		(pin "1"
-			(uuid "bb8df577-42bf-4f08-8b86-53f53673031e")
-		)
-		(instances
-			(project "Air_Quality"
-				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)

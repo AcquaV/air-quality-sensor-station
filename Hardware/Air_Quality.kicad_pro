@@ -615,12 +615,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -675,7 +699,7 @@
         "uuid": "449a9406-99e2-4e5e-9f43-ae6a436c1b76"
       }
     ],
-    "used_designators": "C1-10,CN1,D1,FPC1,Q1,R1-7,SW1-2,U1-6,USB1,USBC1",
+    "used_designators": "C1-14,CN1,D1,FPC1,P1,Q1,R1-8,SW1-2,U1-6,USB1,USBC1",
     "variants": []
   },
   "sheets": [
