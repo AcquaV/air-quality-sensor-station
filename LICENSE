@@ -1,6 +1,32 @@
+Repository License
+
+This repository uses a dual-license structure: hardware design files and documentation are released under the Creative Commons Attribution 4.0 International License (CC BY 4.0), while all software and firmware source code are released under the MIT License.
+
+Hardware & Documentation License
+
+All hardware design files (including KiCad schematics, PCB layout files, Gerber manufacturing files, 3D models, component footprints, and technical documentation) are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+You are free to:
+
+Share — Copy and redistribute the material in any medium or format for any purpose, even commercially.
+
+Adapt — Remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+
+Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+For the full terms of this license, please visit:
+
+https://creativecommons.org/licenses/by/4.0/ legalcode
+
+Software & Firmware License
+
+All software, firmware source code, ESPHome configuration files, and scripts in this repository are licensed under the MIT License.
+
 MIT License
 
-Copyright (c) 2026 AcquaV
+Copyright (c) [YEAR] [YOUR NAME OR USERNAME]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
