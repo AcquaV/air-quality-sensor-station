@@ -5,6 +5,130 @@
 	(uuid "d4b84b33-3074-48e5-a047-e546c4d0916b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:0603WAF5101T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1198,7 +1322,13 @@
 		)
 	)
 	(junction
-		(at 186.69 102.87)
+		(at 208.28 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1235ccf5-a108-4e05-a521-9297651559e8")
+	)
+	(junction
+		(at 186.69 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "215cdb87-bc18-4e48-b877-30c5fdbc8fee")
@@ -1216,10 +1346,10 @@
 		(uuid "21e05eb4-0b83-4c64-8a38-8bd3536d3974")
 	)
 	(junction
-		(at 208.28 102.87)
+		(at 222.25 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d0ac627-0697-4889-85a0-9a0a1216b0aa")
+		(uuid "24608485-15c0-4b79-a884-6208d73111cd")
 	)
 	(junction
 		(at 128.27 99.06)
@@ -1228,10 +1358,46 @@
 		(uuid "3117ccb5-9c6d-4181-b178-81c52ed78114")
 	)
 	(junction
-		(at 208.28 86.36)
+		(at 215.9 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f47fcd7-3e23-4120-85d6-ccefd372e287")
+	)
+	(junction
+		(at 138.43 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ecd96e3-1454-415a-83a9-e6adcea90641")
+	)
+	(junction
+		(at 222.25 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83591a52-c941-46e8-9981-ca7ea44e650b")
+	)
+	(junction
+		(at 208.28 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8679ad51-4e23-4267-8050-69801410f38f")
+	)
+	(junction
+		(at 138.43 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e6484d8-bad8-4d7e-b5a8-fabb03cc35d8")
+	)
+	(junction
+		(at 172.72 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "905ac840-f4f2-4982-aee7-b512fb82b201")
+	)
+	(junction
+		(at 147.32 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9852130a-561d-4cbe-b602-cf7a9a5fb609")
 	)
 	(junction
 		(at 107.95 91.44)
@@ -1240,7 +1406,7 @@
 		(uuid "9dd8273f-3d4a-4fbe-b78d-1035fe765774")
 	)
 	(junction
-		(at 173.99 86.36)
+		(at 161.29 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ffa2547-9eed-42e1-8ed7-6ab77c76c504")
@@ -1258,7 +1424,7 @@
 		(uuid "b0dcab5b-c149-45f5-93cf-20617a17881f")
 	)
 	(junction
-		(at 173.99 102.87)
+		(at 161.29 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b248590b-6fa8-4bc4-b5c0-cef33244c89e")
@@ -1270,10 +1436,22 @@
 		(uuid "bbfadabe-0772-4493-8d60-d0ddd50d2bc2")
 	)
 	(junction
-		(at 199.39 102.87)
+		(at 199.39 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccd457ca-663a-41ee-bbdf-377f5feab16a")
+	)
+	(junction
+		(at 222.25 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db78f3b4-e367-4a39-a153-27ab0ea78c44")
+	)
+	(junction
+		(at 215.9 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5f75f47-17ce-44d2-8f43-10c65a693c64")
 	)
 	(junction
 		(at 149.86 86.36)
@@ -1282,7 +1460,7 @@
 		(uuid "f53d306a-411f-4e12-923b-9259f7a00033")
 	)
 	(junction
-		(at 162.56 86.36)
+		(at 172.72 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbd6fe72-993a-44ae-89f2-e5a8c5c59448")
@@ -1297,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 143.51 101.6)
+			(xy 127 101.6) (xy 140.97 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1317,17 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 102.87) (xy 186.69 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "108d42eb-6a14-4c15-8518-fb407e07486c")
-	)
-	(wire
-		(pts
-			(xy 149.86 86.36) (xy 162.56 86.36)
+			(xy 149.86 86.36) (xy 173.99 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1357,13 +1525,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 97.79) (xy 173.99 102.87)
+			(xy 161.29 97.79) (xy 161.29 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "246b93fc-9973-48bb-a088-0c9fd57be547")
+	)
+	(wire
+		(pts
+			(xy 199.39 88.9) (xy 199.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6334e0-0928-477b-b1e4-0fd4f8c09ae8")
 	)
 	(wire
 		(pts
@@ -1374,6 +1552,16 @@
 			(type default)
 		)
 		(uuid "2fa4e58c-310c-4fd0-a9ab-b105eb6e2b61")
+	)
+	(wire
+		(pts
+			(xy 222.25 86.36) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2faac6d7-b540-4e90-9044-5bd021ef6362")
 	)
 	(wire
 		(pts
@@ -1407,17 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 86.36) (xy 173.99 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4349ed85-7d87-4352-8171-c6fff53de324")
-	)
-	(wire
-		(pts
-			(xy 173.99 86.36) (xy 173.99 90.17)
+			(xy 161.29 86.36) (xy 161.29 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1427,13 +1605,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 88.9) (xy 199.39 102.87)
+			(xy 186.69 99.06) (xy 186.69 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "493d0d8a-c552-40be-8a5c-0d098882486c")
+		(uuid "55961550-3a54-424c-99fc-0155282b0fa1")
 	)
 	(wire
 		(pts
@@ -1457,6 +1635,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc60121-26d8-4a3e-95cf-f5a16237d7b7")
+	)
+	(wire
+		(pts
 			(xy 138.43 78.74) (xy 128.27 78.74)
 		)
 		(stroke
@@ -1467,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 119.38) (xy 214.63 119.38)
+			(xy 140.97 119.38) (xy 223.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1477,13 +1665,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 99.06) (xy 146.05 116.84)
+			(xy 142.24 99.06) (xy 142.24 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f8c1e37-5e9f-48d0-b4e3-5052016527b0")
+	)
+	(wire
+		(pts
+			(xy 215.9 97.79) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a790a0-41e0-43c6-9c70-f7634b4fec88")
 	)
 	(wire
 		(pts
@@ -1497,6 +1695,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 86.36) (xy 208.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d9a831-b816-4d8b-913d-ab9961a0694c")
+	)
+	(wire
+		(pts
 			(xy 138.43 88.9) (xy 138.43 78.74)
 		)
 		(stroke
@@ -1507,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 101.6) (xy 143.51 119.38)
+			(xy 140.97 101.6) (xy 140.97 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1517,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 99.06) (xy 146.05 99.06)
+			(xy 128.27 99.06) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1527,23 +1735,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 86.36) (xy 208.28 90.17)
+			(xy 215.9 86.36) (xy 215.9 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a02fb9c-0c66-43e5-8343-e92f42cf5e88")
-	)
-	(wire
-		(pts
-			(xy 173.99 102.87) (xy 186.69 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a0a9560-2218-4925-be5f-d7a17d852b0d")
 	)
 	(wire
 		(pts
@@ -1557,27 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 102.87) (xy 208.28 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88b411f9-5f67-447d-b3d0-23bd20cf0757")
-	)
-	(wire
-		(pts
-			(xy 162.56 102.87) (xy 173.99 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a74291e-0291-4f1f-ad45-249bd4b6035c")
-	)
-	(wire
-		(pts
-			(xy 162.56 86.36) (xy 162.56 88.9)
+			(xy 172.72 86.36) (xy 172.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1594,6 +1772,16 @@
 			(type default)
 		)
 		(uuid "929cd169-3377-4994-ae90-d9aaa7400fa7")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0b626b-70ae-4d0e-bfbf-5a27cdc7c02f")
 	)
 	(wire
 		(pts
@@ -1627,6 +1815,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 104.14) (xy 186.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98cf07d-0686-4516-bafb-a1566a73b1bb")
+	)
+	(wire
+		(pts
+			(xy 208.28 100.33) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c8cffc-3dda-4784-833c-3e0e532ac5d3")
+	)
+	(wire
+		(pts
 			(xy 125.73 104.14) (xy 128.27 104.14)
 		)
 		(stroke
@@ -1647,13 +1855,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 102.87) (xy 162.56 99.06)
+			(xy 222.25 104.14) (xy 228.6 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6774210-21df-4cc7-82b6-08dd945d2833")
+		(uuid "c8893fd7-66f3-411f-a680-db00e58c7888")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b6a7ad-f99f-4bbb-a551-d738a534c4ab")
 	)
 	(wire
 		(pts
@@ -1677,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 102.87) (xy 199.39 102.87)
+			(xy 186.69 104.14) (xy 199.39 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1687,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 102.87) (xy 219.71 102.87)
+			(xy 199.39 104.14) (xy 208.28 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1697,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 219.71 109.22)
+			(xy 149.86 109.22) (xy 222.25 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1707,13 +1925,33 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 116.84) (xy 214.63 116.84)
+			(xy 142.24 116.84) (xy 223.52 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1c7a284-1d1e-440a-a4aa-21712837edc5")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5701a28-f745-49c5-8858-3ef5bd10be1d")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9cf18dd-6b36-48e3-9c29-c374d3715d37")
 	)
 	(wire
 		(pts
@@ -1737,6 +1975,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 109.22) (xy 228.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb5ec69-a717-46f8-b512-681e70abda7f")
+	)
+	(wire
+		(pts
 			(xy 107.95 83.82) (xy 107.95 86.36)
 		)
 		(stroke
@@ -1747,7 +1995,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 219.71 86.36)
+			(xy 138.43 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ccb848-2da2-4228-aa17-23226cc3784f")
+	)
+	(wire
+		(pts
+			(xy 199.39 86.36) (xy 208.28 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +2025,7 @@
 	)
 	(global_label "USB_DATA+"
 		(shape output)
-		(at 214.63 116.84 0)
+		(at 223.52 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1777,7 +2035,7 @@
 		)
 		(uuid "8b9b4004-6b6c-41ad-b364-777577a29656")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.38 116.84 0)
+			(at 237.27 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +2049,7 @@
 	)
 	(global_label "5V"
 		(shape output)
-		(at 219.71 109.22 0)
+		(at 228.6 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1801,7 +2059,7 @@
 		)
 		(uuid "97646dbc-3119-4d9d-9c19-f88103901646")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.9933 109.22 0)
+			(at 233.8833 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +2073,7 @@
 	)
 	(global_label "3V3"
 		(shape output)
-		(at 219.71 86.36 0)
+		(at 228.6 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1825,7 +2083,7 @@
 		)
 		(uuid "b21d947d-de64-49e8-90cc-48169440ff02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.2028 86.36 0)
+			(at 235.0928 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1839,7 +2097,7 @@
 	)
 	(global_label "USB_DATA-"
 		(shape output)
-		(at 214.63 119.38 0)
+		(at 223.52 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1849,7 +2107,7 @@
 		)
 		(uuid "c09f44c2-acea-4a73-8d22-0ecdb23d6d4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.38 119.38 0)
+			(at 237.27 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,7 +2121,7 @@
 	)
 	(global_label "GND"
 		(shape output)
-		(at 219.71 102.87 0)
+		(at 228.6 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1873,7 +2131,7 @@
 		)
 		(uuid "f41c8e19-0309-4207-a4dd-9c72a83a19b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.5657 102.87 0)
+			(at 235.4557 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1988,6 +2246,85 @@
 			(project "Air_Quality"
 				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 222.25 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d0b7022-4a48-4201-8b2c-41ad6d89ddbb")
+		(property "Reference" "TP1"
+			(at 223.266 82.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 224.79 84.3279 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 227.33 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 222.25 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae858334-99d4-42c5-b905-701c3b5e2135")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2139,7 +2476,7 @@
 	)
 	(symbol
 		(lib_id "lscs:100nF_(104)_±10%_16V")
-		(at 162.56 93.98 270)
+		(at 172.72 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2149,7 +2486,7 @@
 		(dnp no)
 		(uuid "109f2e75-01cd-471a-bc95-f0c84450051a")
 		(property "Reference" "C3"
-			(at 156.21 92.456 90)
+			(at 166.37 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2160,7 +2497,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 154.432 94.996 90)
+			(at 164.592 94.996 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2171,7 +2508,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C1525_C0402"
-			(at 152.4 93.98 0)
+			(at 162.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2182,7 +2519,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 162.687 91.694 0)
+			(at 172.847 91.694 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2193,7 +2530,7 @@
 			)
 		)
 		(property "Description" "100nF (104) ±10% 16V"
-			(at 162.56 93.98 0)
+			(at 172.72 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2204,7 +2541,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 162.56 93.98 0)
+			(at 172.72 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2215,7 +2552,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 162.56 93.98 0)
+			(at 172.72 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2343,7 +2680,7 @@
 	)
 	(symbol
 		(lib_id "lscs:10uF_(106)_±10%_16V")
-		(at 173.99 93.98 270)
+		(at 161.29 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2353,7 +2690,7 @@
 		(dnp no)
 		(uuid "41ab4d05-1199-4052-9dc8-124933d7c129")
 		(property "Reference" "C1"
-			(at 168.656 93.472 90)
+			(at 155.956 93.472 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2364,7 +2701,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 167.64 95.504 90)
+			(at 154.94 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2375,7 +2712,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C1713_C0805"
-			(at 163.83 93.98 0)
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2386,7 +2723,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf"
-			(at 174.117 91.694 0)
+			(at 161.417 91.694 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,7 +2734,7 @@
 			)
 		)
 		(property "Description" "10uF (106) ±10% 16V"
-			(at 173.99 93.98 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,7 +2745,7 @@
 			)
 		)
 		(property "LCSC" "C1713"
-			(at 173.99 93.98 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2419,7 +2756,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 173.99 93.98 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2445,8 +2782,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:22uF_(226)_±10%_10V")
-		(at 208.28 93.98 90)
+		(lib_id "Connector:TestPoint_Alt")
+		(at 222.25 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2454,10 +2791,88 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "434a898e-c8ca-4ac1-8f3c-61f6dabeebf7")
+		(property "Reference" "TP2"
+			(at 223.774 100.838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 224.79 102.1079 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 227.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 222.25 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2e8eca3-922c-4ab8-9206-6edfc24c53f7")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:22uF_(226)_±10%_10V")
+		(at 215.9 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "5f726718-dcf2-4a18-ba9d-73478829cc10")
 		(property "Reference" "C9"
-			(at 212.09 92.7099 90)
+			(at 218.948 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2468,7 +2883,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 212.09 95.2499 90)
+			(at 218.948 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2479,7 +2894,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C5672_C1206"
-			(at 218.44 93.98 0)
+			(at 226.06 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2490,7 +2905,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810221121_Samsung-Electro-Mechanics-CL31A226KPHNNNE_C5672.pdf"
-			(at 208.153 96.266 0)
+			(at 215.773 96.266 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2916,7 @@
 			)
 		)
 		(property "Description" "22uF (226) ±10% 10V"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +2927,7 @@
 			)
 		)
 		(property "LCSC" "C5672"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2523,7 +2938,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 208.28 93.98 0)
+			(at 215.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,6 +3059,188 @@
 			(project "Air_Quality"
 				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 222.25 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ac99932-aac8-46d8-86a4-8b30ec0f8059")
+		(property "Reference" "TP3"
+			(at 223.266 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 224.79 113.7919 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 222.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e97ccec-3edf-46a1-91e4-f4838f2d639b")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lscs:100nF_(104)_±10%_16V")
+		(at 208.28 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c15297d-a406-4bc3-a81d-902ea5396d53")
+		(property "Reference" "C15"
+			(at 201.93 93.726 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 200.152 96.266 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C1525_C0402"
+			(at 198.12 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 208.407 92.964 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF (104) ±10% 16V"
+			(at 208.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 208.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 208.28 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3dc3271b-0193-426d-97ba-d8019e9bc2e0")
+		)
+		(pin "1"
+			(uuid "4075e500-e481-476f-9726-32b65019852a")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/b9f07ad1-26af-4256-be12-075ffb176cf4"
+					(reference "C15")
 					(unit 1)
 				)
 			)

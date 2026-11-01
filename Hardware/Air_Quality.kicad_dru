@@ -1,0 +1,55 @@
+(version 1)
+
+# ==========================================================
+# JLCPCB - 4 layer, 1 oz outer / 0.5 oz inner, FR4 1.6 mm
+# Compatibile con KiCad 7 / 8 / 9
+# Verificare sempre su https://jlcpcb.com/capabilities/pcb-capabilities
+# ==========================================================
+
+# --- Piste e spaziature (limite JLC 4 layer: 3.5 mil = 0.09 mm) ---
+(rule "JLC clearance minima"
+	(constraint clearance (min 0.1mm)))
+
+(rule "JLC larghezza pista minima"
+	(constraint track_width (min 0.1mm)))
+
+# --- Fori, via e anello anulare ---
+(rule "JLC anello anulare minimo"
+	(constraint annular_width (min 0.15mm)))
+
+(rule "JLC diametro foro minimo"
+	(constraint hole_size (min 0.2mm)))
+
+(rule "JLC diametro via minimo"
+	(condition "A.Type == 'Via'")
+	(constraint via_diameter (min 0.45mm)))
+
+(rule "JLC distanza foro-foro (reti diverse)"
+	(constraint hole_to_hole (min 0.5mm)))
+
+(rule "JLC rame-foro"
+	(constraint hole_clearance (min 0.2mm)))
+
+# --- Bordo scheda ---
+(rule "JLC rame-bordo (layer esterni)"
+	(constraint edge_clearance (min 0.3mm)))
+
+# Le regole piu' in basso hanno priorita': inner layer 0.4 mm
+(rule "JLC rame-bordo (layer interni)"
+	(condition "A.Layer == 'In1.Cu' || A.Layer == 'In2.Cu'")
+	(constraint edge_clearance (min 0.4mm)))
+
+# --- Serigrafia ---
+(rule "JLC silk-pad"
+	(constraint silk_clearance (min 0.15mm)))
+
+(rule "JLC altezza testo silk"
+	(constraint text_height (min 1mm)))
+
+(rule "JLC spessore testo silk"
+	(constraint text_thickness (min 0.15mm)))
+
+# --- Via cieche/sepolte e microvia: servizio extra, non permesse ---
+(rule "No via cieche/sepolte"
+	(condition "A.Type == 'Via' && (A.Via_Type == 'Blind/buried' || A.Via_Type == 'Micro')")
+	(constraint disallow via))
