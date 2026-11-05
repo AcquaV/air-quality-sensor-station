@@ -6796,4 +6796,454 @@
       )
     )
   )
+  (symbol "S7B-XH-A_(LF)(SN)"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "CN"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "S7B-XH-A (LF)(SN)"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C157916_CONN-TH_S7B-XH-A-LF-SN"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-S7B-XH-A-LF-SN_C157916.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "S7B-XH-A (LF)(SN)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C157916"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "JST"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "S7B-XH-A_(LF)(SN)_1_1"
+      (rectangle
+        (start -3.81000762001524 10.16002032004064)
+        (end 6.350012700025401 -10.16002032004064)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -2.54000508001016 8.89001778003556)
+        (radius 0.381000762001524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -6.35 7.62 0)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 5.08 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 2.54 0)
+        (length 2.54)
+        (name "3"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "3"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -0.0 0)
+        (length 2.54)
+        (name "4"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "4"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -2.54 0)
+        (length 2.54)
+        (name "5"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "5"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -5.08 0)
+        (length 2.54)
+        (name "6"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "6"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -7.62 0)
+        (length 2.54)
+        (name "7"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "7"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+    )
+  )
+  (symbol "S8B-XH-A_(LF)(SN)"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "CN"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "S8B-XH-A (LF)(SN)"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C157914_CONN-TH_S8B-XH-A-LF-SN"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-S8B-XH-A-LF-SN_C157914.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "S8B-XH-A (LF)(SN)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C157914"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "JST"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "S8B-XH-A_(LF)(SN)_1_1"
+      (rectangle
+        (start -3.81000762001524 11.430022860045721)
+        (end 6.350012700025401 -11.430022860045721)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -2.54000508001016 10.16002032004064)
+        (radius 0.381000762001524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -6.35 8.89 0)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 6.35 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 3.81 0)
+        (length 2.54)
+        (name "3"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "3"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 1.27 0)
+        (length 2.54)
+        (name "4"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "4"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -1.27 0)
+        (length 2.54)
+        (name "5"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "5"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -3.81 0)
+        (length 2.54)
+        (name "6"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "6"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -6.35 0)
+        (length 2.54)
+        (name "7"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "7"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -8.89 0)
+        (length 2.54)
+        (name "8"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "8"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+    )
+  )
+  (symbol "S3B-XH-A_(LF)(SN)"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "CN"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "S3B-XH-A (LF)(SN)"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C157928_CONN-TH_S3B-XH-A-LF-SN"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-S3B-XH-A-LF-SN_C157928.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "S3B-XH-A (LF)(SN)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C157928"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "JST"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "S3B-XH-A_(LF)(SN)_1_1"
+      (rectangle
+        (start -3.81000762001524 5.08001016002032)
+        (end 6.350012700025401 -5.08001016002032)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle
+        (center -2.54000508001016 3.81000762001524)
+        (radius 0.381000762001524)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -6.35 2.54 0)
+        (length 2.54)
+        (name "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -0.0 0)
+        (length 2.54)
+        (name "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -6.35 -2.54 0)
+        (length 2.54)
+        (name "3"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "3"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+    )
+  )
 )

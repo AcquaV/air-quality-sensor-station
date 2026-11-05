@@ -1,1 +1,7 @@
 interrutore capacitivo aliexpress
+display oled 2 pollici
+
+connettore jst per display 7 pin / pulsante 3 pin 
+
+controllo connettore sen50
+mosfet su display

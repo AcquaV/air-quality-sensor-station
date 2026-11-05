@@ -5,186 +5,6 @@
 	(uuid "0b624a1d-bb2a-4c00-924f-dff44dc19c25")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2_54-1*4P反弯排针_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H2"
-				(at -0.254 8.128 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.54-1*4P反弯排针"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C91552_HDR-TH_4P-P2_54-H-M-W10_4"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_BOOMELE-Boom-Precision-Elec-2-54-1-4P_C91552.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2.54-1*4P反弯排针"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C91552"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "BOOMELE(博穆精密)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2_54-1*4P反弯排针_1_1_1"
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 5.08)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "RST"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint_Alt"
 			(pin_numbers
 				(hide yes)
@@ -901,725 +721,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc_imported:2_54-1*4P反弯排针"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H1"
-				(at -0.508 -7.874 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.54-1*4P反弯排针"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C91552_HDR-TH_4P-P2_54-H-M-W10_4"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_BOOMELE-Boom-Precision-Elec-2-54-1-4P_C91552.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2.54-1*4P反弯排针"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C91552"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "BOOMELE(博穆精密)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2_54-1*4P反弯排针_1_1"
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 5.08)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "BUSY"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "DC"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc_imported:2_54-2*12P弯针"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.54-2*12P弯针"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C668224_HDR-TH_24P-P2_54-H-M-R2-C12-S2_54"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2.54-2*12P弯针"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C668224"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "BOOMELE(博穆精密)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2_54-2*12P弯针_1_1"
-				(rectangle
-					(start -5.08 16.51)
-					(end 5.08 -16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 15.24)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 13.97 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 13.97 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 11.43 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 11.43 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 8.89 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 8.89 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 6.35 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 6.35 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 3.81 0)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 3.81 180)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "11"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "12"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name "13"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -1.27 180)
-					(length 2.54)
-					(name "14"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -3.81 0)
-					(length 2.54)
-					(name "15"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -3.81 180)
-					(length 2.54)
-					(name "16"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -6.35 0)
-					(length 2.54)
-					(name "17"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -6.35 180)
-					(length 2.54)
-					(name "18"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -8.89 0)
-					(length 2.54)
-					(name "19"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -8.89 180)
-					(length 2.54)
-					(name "20"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -11.43 0)
-					(length 2.54)
-					(name "21"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -11.43 180)
-					(length 2.54)
-					(name "22"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -13.97 0)
-					(length 2.54)
-					(name "23"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -13.97 180)
-					(length 2.54)
-					(name "24"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "24"
 						(effects
 							(font
 								(size 1 1)
@@ -3138,12 +2239,6 @@
 		(uuid "54bf3e5c-433f-45b3-b678-81e8cd218b7a")
 	)
 	(junction
-		(at 210.82 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "588855f1-9de2-4cc5-a0f8-762d2faf60f3")
-	)
-	(junction
 		(at 128.27 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3154,12 +2249,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c68c920-8dbf-41b7-8440-633aab57adc5")
-	)
-	(junction
-		(at 210.82 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "746db311-092c-4ac9-9d4e-2746d73ab529")
 	)
 	(junction
 		(at 124.46 120.65)
@@ -3235,16 +2324,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 107.95) (xy 135.89 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00dec38e-5f79-43ac-8fff-18d4c2a1fe29")
-	)
-	(wire
-		(pts
 			(xy 123.19 85.09) (xy 123.19 86.36)
 		)
 		(stroke
@@ -3292,26 +2371,6 @@
 			(type default)
 		)
 		(uuid "0823439b-f42b-4415-9014-6d65a0118013")
-	)
-	(wire
-		(pts
-			(xy 135.89 120.65) (xy 215.9 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c794584-dc07-46cc-812e-272e6b4f1d04")
-	)
-	(wire
-		(pts
-			(xy 161.29 113.03) (xy 218.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8f3b6f-8873-4a84-a00d-713d5776d389")
 	)
 	(wire
 		(pts
@@ -3385,16 +2444,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 90.17) (xy 224.79 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2976d46d-c649-4365-b5ad-1d10c2779523")
-	)
-	(wire
-		(pts
 			(xy 175.26 74.93) (xy 177.8 74.93)
 		)
 		(stroke
@@ -3445,26 +2494,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 110.49) (xy 220.98 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f53904-2baa-4316-bbb5-428b08eec3da")
-	)
-	(wire
-		(pts
-			(xy 137.16 119.38) (xy 217.17 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "347dba00-11dc-4761-91a6-aba30498197c")
-	)
-	(wire
-		(pts
 			(xy 149.86 59.69) (xy 128.27 59.69)
 		)
 		(stroke
@@ -3495,16 +2524,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 85.09) (xy 210.82 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45ba2c17-7edd-4c5f-880e-d5b73e805645")
-	)
-	(wire
-		(pts
 			(xy 128.27 93.98) (xy 128.27 96.52)
 		)
 		(stroke
@@ -3522,16 +2541,6 @@
 			(type default)
 		)
 		(uuid "4feddb90-c691-45eb-9c43-1eaa169dd69d")
-	)
-	(wire
-		(pts
-			(xy 161.29 107.95) (xy 222.25 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "566673aa-146d-464e-9f17-2c47ec041ab5")
 	)
 	(wire
 		(pts
@@ -3625,26 +2634,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 82.55) (xy 210.82 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655823d8-f1e2-4c75-a9d2-4cf27661adc9")
-	)
-	(wire
-		(pts
-			(xy 215.9 74.93) (xy 224.79 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d9e35c-b07a-4290-9d9d-e8bb052bde3a")
-	)
-	(wire
-		(pts
 			(xy 172.72 104.14) (xy 172.72 101.6)
 		)
 		(stroke
@@ -3655,36 +2644,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 107.95) (xy 135.89 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71827f22-4d23-46b8-aab9-8710013786bf")
-	)
-	(wire
-		(pts
-			(xy 218.44 80.01) (xy 218.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ef8e1c-83d2-4d68-8bc0-768eca04e372")
-	)
-	(wire
-		(pts
-			(xy 137.16 110.49) (xy 137.16 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724bf9eb-cb79-4d10-a020-996e4138daf3")
-	)
-	(wire
-		(pts
 			(xy 172.72 104.14) (xy 182.88 104.14)
 		)
 		(stroke
@@ -3692,16 +2651,6 @@
 			(type default)
 		)
 		(uuid "749c7df3-a436-4fed-8921-96bd74833c27")
-	)
-	(wire
-		(pts
-			(xy 219.71 87.63) (xy 224.79 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a93ad2-9a79-4b8c-adf5-ac0eedb71b93")
 	)
 	(wire
 		(pts
@@ -3805,16 +2754,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 113.03) (xy 138.43 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bbf1bf1-996d-4f23-92d8-209e6afc22dd")
-	)
-	(wire
-		(pts
 			(xy 163.83 74.93) (xy 165.1 74.93)
 		)
 		(stroke
@@ -3825,16 +2764,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 74.93) (xy 215.9 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0fd461f-2eeb-4fd8-8e97-6c32d1e47ccf")
-	)
-	(wire
-		(pts
 			(xy 120.65 110.49) (xy 125.73 110.49)
 		)
 		(stroke
@@ -3842,16 +2771,6 @@
 			(type default)
 		)
 		(uuid "aa1e1b0c-a957-4acb-9c2d-a3c42b0b7f36")
-	)
-	(wire
-		(pts
-			(xy 210.82 85.09) (xy 224.79 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acbc5000-18f7-422b-9afe-ec134efc3a26")
 	)
 	(wire
 		(pts
@@ -3875,26 +2794,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 72.39) (xy 224.79 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3da29e1-bf92-4054-b641-77db4f67a9d3")
-	)
-	(wire
-		(pts
-			(xy 138.43 118.11) (xy 219.71 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4476dcc-8a98-49ae-83b2-710e8fac6bf7")
-	)
-	(wire
-		(pts
 			(xy 129.54 100.33) (xy 129.54 95.25)
 		)
 		(stroke
@@ -3902,16 +2801,6 @@
 			(type default)
 		)
 		(uuid "b4c1d1f7-e87c-4a0d-837b-748a4e8701d9")
-	)
-	(wire
-		(pts
-			(xy 219.71 87.63) (xy 219.71 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b765fa17-c0c2-46fa-b2fe-fce9f49a4056")
 	)
 	(wire
 		(pts
@@ -3935,16 +2824,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 80.01) (xy 218.44 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9ffe9a4-4012-40aa-843e-62719ac0e151")
-	)
-	(wire
-		(pts
 			(xy 128.27 86.36) (xy 135.89 86.36)
 		)
 		(stroke
@@ -3952,16 +2831,6 @@
 			(type default)
 		)
 		(uuid "bcf7eea7-d86b-4439-986a-d7f35c985067")
-	)
-	(wire
-		(pts
-			(xy 208.28 72.39) (xy 210.82 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c07e5e16-6ac8-4478-a1e8-8e01213aacde")
 	)
 	(wire
 		(pts
@@ -4005,16 +2874,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 77.47) (xy 217.17 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9198ee9-222a-44a7-a382-899d12fa9a4a")
-	)
-	(wire
-		(pts
 			(xy 132.08 92.71) (xy 132.08 110.49)
 		)
 		(stroke
@@ -4022,16 +2881,6 @@
 			(type default)
 		)
 		(uuid "cb442743-eab6-48cc-88bc-fd30b2781ebc")
-	)
-	(wire
-		(pts
-			(xy 222.25 92.71) (xy 222.25 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb5e469c-e4ec-4aa8-9898-37b6a7987dd0")
 	)
 	(wire
 		(pts
@@ -4072,16 +2921,6 @@
 			(type default)
 		)
 		(uuid "d798d500-80fe-44eb-9878-f9b3f2b93fee")
-	)
-	(wire
-		(pts
-			(xy 222.25 92.71) (xy 224.79 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde59be5-32cd-4899-b24c-bc4b4adebe26")
 	)
 	(wire
 		(pts
@@ -4132,16 +2971,6 @@
 			(type default)
 		)
 		(uuid "e3f285f2-c459-409a-89de-b81d576c408a")
-	)
-	(wire
-		(pts
-			(xy 220.98 90.17) (xy 220.98 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4c20a07-56d1-4ad8-867e-c356ff8f3ee7")
 	)
 	(wire
 		(pts
@@ -4232,26 +3061,6 @@
 			(type default)
 		)
 		(uuid "fa17c5df-a2e6-4eb3-8b21-6867a2ef5f83")
-	)
-	(wire
-		(pts
-			(xy 138.43 110.49) (xy 137.16 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa18aeca-6719-4e29-aedc-94bedc27d843")
-	)
-	(wire
-		(pts
-			(xy 217.17 77.47) (xy 224.79 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb782f3b-cf49-4298-a2fc-e8d7bf4b330b")
 	)
 	(wire
 		(pts
@@ -5175,30 +3984,6 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 208.28 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9abc7b08-ed42-407c-a088-88c7e36917ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.4243 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
 		(at 96.52 64.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5282,30 +4067,6 @@
 		(uuid "eb040ed1-2176-4759-8a87-bda96ce31f28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.0881 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 208.28 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2fbc61d-4f3d-49bf-a81f-28be395f9266")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7872 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,114 +4916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:2_54-1*4P反弯排针")
-		(at 229.87 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "643dab4b-81cf-4668-a2b1-d14fbb4c0f96")
-		(property "Reference" "H1"
-			(at 229.362 96.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.54-1*4P反弯排针"
-			(at 229.87 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C91552_HDR-TH_4P-P2_54-H-M-W10_4"
-			(at 229.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_BOOMELE-Boom-Precision-Elec-2-54-1-4P_C91552.pdf"
-			(at 227.584 88.773 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.54-1*4P反弯排针"
-			(at 229.87 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C91552"
-			(at 229.87 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BOOMELE(博穆精密)"
-			(at 229.87 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e586594-96ce-4a88-b420-51fd41d5f10f")
-		)
-		(pin "3"
-			(uuid "e23e15e3-3483-468a-90ce-57ba7554e3e1")
-		)
-		(pin "1"
-			(uuid "2a2bf1c8-e08e-4ca0-bbcc-ef040c4febe5")
-		)
-		(pin "4"
-			(uuid "60c5e59e-661c-4205-8166-7d96a30ad718")
-		)
-		(instances
-			(project "Air_Quality"
-				(path "/0b624a1d-bb2a-4c00-924f-dff44dc19c25"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc_imported:10KΩ_(1002)_±1%")
 		(at 177.8 86.36 270)
 		(unit 1)
@@ -6366,218 +5019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lscs:100nF_(104)_±10%_16V")
-		(at 210.82 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72a65844-37c7-4e4c-ad61-3ead48bce904")
-		(property "Reference" "C12"
-			(at 206.756 79.502 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 207.518 77.216 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C1525_C0402"
-			(at 200.66 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 210.947 75.184 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF (104) ±10% 16V"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 210.82 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "85937b98-3188-433a-93e7-4fef6edc66da")
-		)
-		(pin "1"
-			(uuid "bc4ae968-02a6-4508-bdae-bb3b5da5b134")
-		)
-		(instances
-			(project "Air_Quality"
-				(path "/0b624a1d-bb2a-4c00-924f-dff44dc19c25"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "2_54-1*4P反弯排针_1")
-		(lib_id "lcsc_imported:2_54-1*4P反弯排针")
-		(at 229.87 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "791a1bc3-1494-4b0e-a1cf-c32d5be3da15")
-		(property "Reference" "H2"
-			(at 229.616 68.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.54-1*4P反弯排针"
-			(at 229.87 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C91552_HDR-TH_4P-P2_54-H-M-W10_4"
-			(at 229.87 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_BOOMELE-Boom-Precision-Elec-2-54-1-4P_C91552.pdf"
-			(at 227.584 76.073 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.54-1*4P反弯排针"
-			(at 229.87 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C91552"
-			(at 229.87 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BOOMELE(博穆精密)"
-			(at 229.87 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6628f445-edb6-47f9-8b98-699ffb9b8d68")
-		)
-		(pin "2"
-			(uuid "521f6f5e-cd8a-4fda-a1bd-8d1d3125a85e")
-		)
-		(pin "4"
-			(uuid "a1d24e39-9d86-4db8-ba17-50855b598158")
-		)
-		(pin "3"
-			(uuid "6cc1e9d3-2ba1-4ad7-b947-4648e1364536")
-		)
-		(instances
-			(project "Air_Quality"
-				(path "/0b624a1d-bb2a-4c00-924f-dff44dc19c25"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc_imported:ESP32-S3-WROOM-1-N4")
 		(at 149.86 88.9 0)
 		(unit 1)
@@ -6599,7 +5040,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1-N4"
-			(at 149.352 124.46 0)
+			(at 150.114 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7256,174 +5697,6 @@
 			(project "Air_Quality"
 				(path "/0b624a1d-bb2a-4c00-924f-dff44dc19c25"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:2_54-2*12P弯针")
-		(at 270.51 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8ad435f-43b6-4ac9-9067-3058c7f5599c")
-		(property "Reference" "U5"
-			(at 270.51 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.54-2*12P弯针"
-			(at 270.51 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C668224_HDR-TH_24P-P2_54-H-M-R2-C12-S2_54"
-			(at 270.51 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 268.224 93.853 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.54-2*12P弯针"
-			(at 270.51 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C668224"
-			(at 270.51 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BOOMELE(博穆精密)"
-			(at 270.51 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "dbe9eb87-a0c0-4b8f-be64-cc3538ae3998")
-		)
-		(pin "8"
-			(uuid "70dfd9c7-714a-4c9a-b152-be0657e78677")
-		)
-		(pin "15"
-			(uuid "581ebdd9-8cbd-49b7-b8ba-e8451d61f823")
-		)
-		(pin "4"
-			(uuid "aaa6edfe-62f1-4660-8b26-87471d590e77")
-		)
-		(pin "5"
-			(uuid "83678c7a-8b51-47f8-a229-833ee682e3a5")
-		)
-		(pin "1"
-			(uuid "07a9e732-9950-42f9-a27c-abe294a2c1dd")
-		)
-		(pin "3"
-			(uuid "5722c0b9-85c9-4d9a-9798-f403eed0eb4d")
-		)
-		(pin "2"
-			(uuid "4c0488af-c4f3-4ba1-90bb-e293aa010637")
-		)
-		(pin "12"
-			(uuid "1fa7ebb7-42e8-4910-ac47-0a4e7ec65cd3")
-		)
-		(pin "14"
-			(uuid "435a72e7-31f3-47e0-bac5-2b68e62a590c")
-		)
-		(pin "19"
-			(uuid "94bcb4c9-69ce-4b9d-bd31-caa689d0736e")
-		)
-		(pin "23"
-			(uuid "e2a2755b-868b-48aa-ae13-c0a3bc0a9c67")
-		)
-		(pin "16"
-			(uuid "a8accc33-5e36-486e-811a-44d0ffe3433b")
-		)
-		(pin "22"
-			(uuid "781ce623-6a11-47c7-86c7-a63144be4c58")
-		)
-		(pin "9"
-			(uuid "cb899811-03e2-4547-a7c6-790e9855a13e")
-		)
-		(pin "10"
-			(uuid "a11547f2-8234-4a33-a850-540e19ae7eb9")
-		)
-		(pin "21"
-			(uuid "6ff3445a-50b1-4cb3-b918-6efd95264581")
-		)
-		(pin "20"
-			(uuid "1c42ae22-c960-4998-b98e-ea7c3f250c20")
-		)
-		(pin "11"
-			(uuid "42c693f2-04ac-4a1d-9c76-66e5f5836b71")
-		)
-		(pin "13"
-			(uuid "3e320742-e543-4c85-ae37-5a28fb2d3228")
-		)
-		(pin "17"
-			(uuid "1324196a-8b99-47c4-bc08-14748cd1436f")
-		)
-		(pin "18"
-			(uuid "e1d17cec-3e4d-4b53-a813-39e1ee270823")
-		)
-		(pin "7"
-			(uuid "5ef6ea23-7647-419b-9f2f-dbe929ab0a26")
-		)
-		(pin "24"
-			(uuid "dc4463b8-7081-4cf4-b845-c4f272dd7582")
-		)
-		(instances
-			(project "Air_Quality"
-				(path "/0b624a1d-bb2a-4c00-924f-dff44dc19c25"
-					(reference "U5")
 					(unit 1)
 				)
 			)
