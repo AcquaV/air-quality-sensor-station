@@ -1,7 +1,5 @@
 # ESP32-S3 Air Quality & Weather Station with 2.0" TFT Display
 
-🇮🇹 Italian version: [README.it.md](README.it.md)
-
 A compact, USB-C powered PCB for indoor air quality (IAQ) monitoring and a simple
 barometric weather forecast, based on the **ESP32-S3**. It reads CO2, VOC/NOx,
 temperature, humidity, pressure and (optionally) particulate matter, keeps time via
