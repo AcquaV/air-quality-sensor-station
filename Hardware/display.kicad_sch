@@ -5,13 +5,13 @@
 	(uuid "b1ab9e47-b563-44de-b64d-ba9c9e99d9b0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "lcsc_imported:S3B-XH-A_(LF)(SN)"
+		(symbol "lcsc_imported:100nF_(104)_±10%_16V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
+			(property "Reference" "C"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "S3B-XH-A (LF)(SN)"
+			(property "Value" "100nF (104) ±10% 16V"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -29,6 +29,905 @@
 					(font
 						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C1525_C0402"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100nF (104) ±10% 16V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C1525"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "100nF_(104)_±10%_16V_1_1"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:10KΩ_(1002)_±1%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10KΩ (1002) ±1%"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C17902_R1206"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1002T5E_C17902.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10KΩ (1002) ±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C17902"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10KΩ_(1002)_±1%_1_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:10uF_(106)_±10%_16V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10uF (106) ±10% 16V"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C1713_C0805"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10uF (106) ±10% 16V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C1713"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10uF_(106)_±10%_16V_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:AO3401A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C15127_SOT-23_L2_9-W1_3-P1_90-LS2_4-BR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412061733_Alpha---Omega-Semicon-AO3401A_C15127.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "AO3401A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C15127"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "AOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.016 0.508) (xy 1.016 -0.508) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -0.508) (xy 5.842 0.762) (xy 4.318 0.762) (xy 5.08 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.588 -0.508) (xy 4.572 -0.508) (xy 4.318 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:RC0603FR-07100KL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-07100KL"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C14675_R0603"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809281124_YAGEO-RC0603FR-07100KL_C14675.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RC0603FR-07100KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C14675"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC0603FR-07100KL_1_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:S3B-XH-A_(LF)(SN)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN3"
+				(at 7.62 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CAPACITIVE BUTTON"
+				(at 7.62 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "lcsc_footprints:C157928_CONN-TH_S3B-XH-A-LF-SN"
@@ -112,7 +1011,7 @@
 				(pin unspecified line
 					(at -6.35 2.54 0)
 					(length 2.54)
-					(name "1"
+					(name "GND"
 						(effects
 							(font
 								(size 1 1)
@@ -130,7 +1029,7 @@
 				(pin unspecified line
 					(at -6.35 0 0)
 					(length 2.54)
-					(name "2"
+					(name "3V3"
 						(effects
 							(font
 								(size 1 1)
@@ -148,7 +1047,7 @@
 				(pin unspecified line
 					(at -6.35 -2.54 0)
 					(length 2.54)
-					(name "3"
+					(name "TOUCH"
 						(effects
 							(font
 								(size 1 1)
@@ -172,24 +1071,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
-				(at 0 1.27 0)
+			(property "Reference" "CN2"
+				(at 7.62 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "S8B-XH-A (LF)(SN)"
-				(at 0 -2.54 0)
+			(property "Value" "TFT DISPLAY"
+				(at 7.62 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "lcsc_footprints:C157914_CONN-TH_S8B-XH-A-LF-SN"
@@ -273,7 +1174,7 @@
 				(pin unspecified line
 					(at -6.35 8.89 0)
 					(length 2.54)
-					(name "1"
+					(name "GND"
 						(effects
 							(font
 								(size 1 1)
@@ -291,7 +1192,7 @@
 				(pin unspecified line
 					(at -6.35 6.35 0)
 					(length 2.54)
-					(name "2"
+					(name "VCC"
 						(effects
 							(font
 								(size 1 1)
@@ -309,7 +1210,7 @@
 				(pin unspecified line
 					(at -6.35 3.81 0)
 					(length 2.54)
-					(name "3"
+					(name "SCL"
 						(effects
 							(font
 								(size 1 1)
@@ -327,7 +1228,7 @@
 				(pin unspecified line
 					(at -6.35 1.27 0)
 					(length 2.54)
-					(name "4"
+					(name "SDA"
 						(effects
 							(font
 								(size 1 1)
@@ -345,7 +1246,7 @@
 				(pin unspecified line
 					(at -6.35 -1.27 0)
 					(length 2.54)
-					(name "5"
+					(name "RST"
 						(effects
 							(font
 								(size 1 1)
@@ -363,7 +1264,7 @@
 				(pin unspecified line
 					(at -6.35 -3.81 0)
 					(length 2.54)
-					(name "6"
+					(name "DC"
 						(effects
 							(font
 								(size 1 1)
@@ -381,7 +1282,7 @@
 				(pin unspecified line
 					(at -6.35 -6.35 0)
 					(length 2.54)
-					(name "7"
+					(name "CS"
 						(effects
 							(font
 								(size 1 1)
@@ -399,7 +1300,7 @@
 				(pin unspecified line
 					(at -6.35 -8.89 0)
 					(length 2.54)
-					(name "8"
+					(name "NC"
 						(effects
 							(font
 								(size 1 1)
@@ -418,9 +1319,907 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 149.86 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1244847f-36a8-4124-bda3-b232e8f54a0e")
+	)
+	(junction
+		(at 162.56 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "125b3f92-36fd-41eb-a99b-0861fd2e8bf7")
+	)
+	(junction
+		(at 186.69 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "221d194a-4a87-4bb9-907f-225f02375c37")
+	)
+	(junction
+		(at 187.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38055ffa-3cca-4beb-95c2-b30d713a9305")
+	)
+	(junction
+		(at 186.69 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "523745d8-ef51-4225-9ede-d28e6eeacfd4")
+	)
+	(junction
+		(at 180.34 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6018361d-f7c8-4bb8-aafc-30d82f215d75")
+	)
+	(junction
+		(at 175.26 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7699920a-9cae-44e8-a3c3-80dc9cd8a1d1")
+	)
+	(junction
+		(at 149.86 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7923a0fa-1634-4bcb-b7a5-eb9daed15378")
+	)
+	(junction
+		(at 175.26 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab6c1f71-2fe4-4818-9111-d78c149f2d8f")
+	)
+	(junction
+		(at 193.04 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b19e7e80-b099-4db6-93ff-a73d0f0a7107")
+	)
+	(junction
+		(at 180.34 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3b21e04-cd1e-4390-a669-4a4d628862c2")
+	)
+	(junction
+		(at 193.04 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1a0d70c-6718-49a4-a9e6-bdcfda0c84da")
+	)
+	(junction
+		(at 187.96 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eccaad36-6b76-450d-9350-82ad770a4827")
+	)
+	(junction
+		(at 162.56 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4932036-c53f-49ab-8fd8-7df6089991ba")
+	)
+	(no_connect
+		(at 195.58 73.66)
+		(uuid "ed56af0b-2ab1-4f54-b3ab-4556b053459a")
+	)
+	(wire
+		(pts
+			(xy 149.86 68.58) (xy 162.56 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066cf1dd-b702-42c3-894e-57e45649b474")
+	)
+	(wire
+		(pts
+			(xy 187.96 63.5) (xy 195.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6fb2c9-2345-45e0-8d80-fd348996ef7c")
+	)
+	(wire
+		(pts
+			(xy 196.85 102.87) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357674c5-bd88-4b77-b5f7-457f6b7cd342")
+	)
+	(wire
+		(pts
+			(xy 162.56 54.61) (xy 161.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d34e5e9-5847-4fa1-a5d4-584e8cf6c332")
+	)
+	(wire
+		(pts
+			(xy 170.18 54.61) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d2d965-c64f-4efd-9f1e-3a4cb1480ead")
+	)
+	(wire
+		(pts
+			(xy 186.69 92.71) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b255c6-f848-4bd0-a1f1-e86385452e09")
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5392eaa8-6136-4923-8704-7d687d4f7866")
+	)
+	(wire
+		(pts
+			(xy 148.59 54.61) (xy 151.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3f535c-1211-4981-a1d2-045b31849288")
+	)
+	(wire
+		(pts
+			(xy 162.56 54.61) (xy 162.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b069f45-c962-4c5a-93c6-c5d0cae44b42")
+	)
+	(wire
+		(pts
+			(xy 187.96 71.12) (xy 195.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0d4082-8140-4d0a-8a00-d8367c798414")
+	)
+	(wire
+		(pts
+			(xy 149.86 54.61) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a470806-7ce7-4ce5-b66f-fc786ac5ffdd")
+	)
+	(wire
+		(pts
+			(xy 185.42 102.87) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86688b7e-7ed7-40a2-b3ce-581adf50ac1d")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 187.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de9ad15-c704-47e5-8985-fd2e0fd7c05a")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916bdccd-ce18-4b30-9f23-01c855cdbff9")
+	)
+	(wire
+		(pts
+			(xy 170.18 54.61) (xy 162.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f25a06-beec-42b3-b82c-3b1a6b1ace37")
+	)
+	(wire
+		(pts
+			(xy 175.26 48.26) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70fca49-fbae-4e5e-b2bb-255f0e8acb27")
+	)
+	(wire
+		(pts
+			(xy 193.04 58.42) (xy 195.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb6e212-9d2b-4d8b-9a62-9c33e15da3f2")
+	)
+	(wire
+		(pts
+			(xy 162.56 66.04) (xy 162.56 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b226fc07-6bcb-48ed-aeee-2faa6c48c93e")
+	)
+	(wire
+		(pts
+			(xy 187.96 48.26) (xy 193.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8cb01b-5a86-4cfa-ba83-69cdac2577a0")
+	)
+	(wire
+		(pts
+			(xy 148.59 68.58) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00c54cd-db6d-4179-a700-39b3638aba76")
+	)
+	(wire
+		(pts
+			(xy 196.85 92.71) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01dc873-1b11-49b6-bc7a-c11c65e5a13f")
+	)
+	(wire
+		(pts
+			(xy 187.96 66.04) (xy 195.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67361e1-840f-454a-bc06-31cffdacb7e5")
+	)
+	(wire
+		(pts
+			(xy 175.26 58.42) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e52a2a-5274-4e9a-aadd-0bc963bbd607")
+	)
+	(wire
+		(pts
+			(xy 195.58 48.26) (xy 195.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad6d7c3-ea59-4862-8965-79c9fe6fd34e")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7d476a-1c5e-4b43-ada0-16b0dbdc46b6")
+	)
+	(wire
+		(pts
+			(xy 175.26 48.26) (xy 175.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3229095-a7d9-4bed-a35e-7a6a2800a792")
+	)
+	(wire
+		(pts
+			(xy 193.04 48.26) (xy 195.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7aadedc-5cc0-4d34-82cd-111fee96559c")
+	)
+	(wire
+		(pts
+			(xy 187.96 60.96) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de005e8e-db01-49fb-8092-207c23303a52")
+	)
+	(wire
+		(pts
+			(xy 187.96 58.42) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1900e5-e232-4897-9202-59448e8c62bf")
+	)
+	(wire
+		(pts
+			(xy 184.15 92.71) (xy 186.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd9ca4f-973c-4a3e-8381-4908ac466d50")
+	)
+	(wire
+		(pts
+			(xy 149.86 48.26) (xy 175.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28c5756-dfd8-422f-a776-96cab0020560")
+	)
+	(wire
+		(pts
+			(xy 186.69 102.87) (xy 196.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d2e8e6-38db-427e-ac74-9001a01961e6")
+	)
+	(wire
+		(pts
+			(xy 175.26 58.42) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd94a612-cce6-4a2b-95b9-9d95a9845f70")
+	)
+	(wire
+		(pts
+			(xy 175.26 57.15) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feab41d0-3490-46f1-8dce-a39a2e5f3d98")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 149.86 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "090bb051-8d55-4eeb-a6e3-37d2616f23f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.0043 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RST_D"
+		(shape input)
+		(at 187.96 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ea1a59a-134f-4b7e-aca0-1b56fc677b5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2901 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL_D"
+		(shape input)
+		(at 187.96 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e0ac731-c3d7-44e4-affd-61d3cb5d18e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2296 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 148.59 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ce9b577-94a2-42d4-96c7-f1a32cff51bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.0972 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "D_ENABLE"
+		(shape input)
+		(at 148.59 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c520e8a-5104-4693-8d58-949ed4f7b47c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.352 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CS_D"
+		(shape input)
+		(at 187.96 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55692244-6f4e-409e-9e04-8055409aab74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.2577 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 184.15 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d8029ce-2e6e-428c-b37c-42b58aa2efdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.2943 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TOUCH"
+		(shape input)
+		(at 185.42 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "933af8dc-55ae-4936-93c8-4be360ed9b63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.2057 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 196.85 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ff24036-7fe5-4d58-b923-0a2cfb3d5a1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.3572 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDA_D"
+		(shape input)
+		(at 187.96 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1c1619e-ac58-440b-bc36-1c3463f3de8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.1691 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DC_D"
+		(shape input)
+		(at 187.96 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f65a739c-7774-47ae-a5d4-476069eb87d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.1972 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RC0603FR-07100KL")
+		(at 149.86 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "228671bc-29d9-43db-82ee-9336229d7053")
+		(property "Reference" "R10"
+			(at 147.828 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 147.828 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C14675_R0603"
+			(at 139.7 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809281124_YAGEO-RC0603FR-07100KL_C14675.pdf"
+			(at 149.987 58.674 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RC0603FR-07100KL"
+			(at 149.86 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 149.86 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 149.86 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39bc40cf-93a2-46fa-9947-340a33c50019")
+		)
+		(pin "2"
+			(uuid "2e78154f-7b0b-415a-80d2-c718c4cea32f")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/10b66b0e-5556-4eed-9620-853004629f71"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RC0603FR-07100KL")
+		(at 187.96 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "273bab47-f4c2-4e62-a98e-015c83760244")
+		(property "Reference" "R13"
+			(at 189.23 45.974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 189.23 43.434 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C14675_R0603"
+			(at 177.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809281124_YAGEO-RC0603FR-07100KL_C14675.pdf"
+			(at 188.087 51.054 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RC0603FR-07100KL"
+			(at 187.96 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 187.96 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 187.96 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "204d2ebc-62cc-44da-aee5-1539699e326b")
+		)
+		(pin "2"
+			(uuid "38b60c43-1ed4-4b6d-a3ad-d4f8b8e2eb8b")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/10b66b0e-5556-4eed-9620-853004629f71"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "lcsc_imported:S3B-XH-A_(LF)(SN)")
-		(at 201.93 83.82 0)
+		(at 203.2 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -431,7 +2230,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c86ec0f-e0a5-4776-835e-6eeaebf70239")
 		(property "Reference" "CN3"
-			(at 209.55 82.5499 0)
+			(at 210.82 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -442,7 +2241,7 @@
 			)
 		)
 		(property "Value" "CAPACITIVE BUTTON"
-			(at 209.55 85.0899 0)
+			(at 210.82 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -453,7 +2252,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C157928_CONN-TH_S3B-XH-A-LF-SN"
-			(at 201.93 93.98 0)
+			(at 203.2 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -464,7 +2263,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-S3B-XH-A-LF-SN_C157928.pdf"
-			(at 199.644 83.693 0)
+			(at 200.914 97.663 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -475,7 +2274,7 @@
 			)
 		)
 		(property "Description" "S3B-XH-A (LF)(SN)"
-			(at 201.93 83.82 0)
+			(at 203.2 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -486,7 +2285,7 @@
 			)
 		)
 		(property "LCSC" "C157928"
-			(at 201.93 83.82 0)
+			(at 203.2 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -497,7 +2296,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 201.93 83.82 0)
+			(at 203.2 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -526,8 +2325,216 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:AO3401A")
+		(at 170.18 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56ee010a-a7f7-436f-975f-9a2a7bca064f")
+		(property "Reference" "Q1"
+			(at 170.18 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 170.18 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C15127_SOT-23_L2_9-W1_3-P1_90-LS2_4-BR"
+			(at 160.02 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412061733_Alpha---Omega-Semicon-AO3401A_C15127.pdf"
+			(at 170.307 63.754 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AO3401A"
+			(at 170.18 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 170.18 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AOS"
+			(at 170.18 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bf43b87b-f902-4d66-ac4e-7cc066e85fd7")
+		)
+		(pin "2"
+			(uuid "33beb069-e8b1-4298-aeb1-9a43a4f73f87")
+		)
+		(pin "1"
+			(uuid "b8f400ee-2b06-4983-af2f-222776c47594")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/10b66b0e-5556-4eed-9620-853004629f71"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:100nF_(104)_±10%_16V")
+		(at 162.56 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f2b90a3-a4f3-441a-a05c-32995d7991d8")
+		(property "Reference" "C17"
+			(at 155.702 60.198 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 154.686 62.738 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C1525_C0402"
+			(at 152.4 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 162.687 58.674 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF (104) ±10% 16V"
+			(at 162.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 162.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 162.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a15277bf-fa62-4aa7-9833-f7ffea916809")
+		)
+		(pin "1"
+			(uuid "d2f50828-9331-4757-96ee-97fde9e02f0b")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/10b66b0e-5556-4eed-9620-853004629f71"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:S8B-XH-A_(LF)(SN)")
-		(at 201.93 53.34 0)
+		(at 201.93 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -538,7 +2545,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c258033-92cd-457f-9796-7b77f3a07e95")
 		(property "Reference" "CN2"
-			(at 209.55 52.0699 0)
+			(at 209.55 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -549,7 +2556,7 @@
 			)
 		)
 		(property "Value" "TFT DISPLAY"
-			(at 209.55 54.6099 0)
+			(at 209.55 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -560,7 +2567,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C157914_CONN-TH_S8B-XH-A-LF-SN"
-			(at 201.93 63.5 0)
+			(at 201.93 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -571,7 +2578,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-S8B-XH-A-LF-SN_C157914.pdf"
-			(at 199.644 53.213 0)
+			(at 199.644 64.643 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -582,7 +2589,7 @@
 			)
 		)
 		(property "Description" "S8B-XH-A (LF)(SN)"
-			(at 201.93 53.34 0)
+			(at 201.93 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -593,7 +2600,7 @@
 			)
 		)
 		(property "LCSC" "C157914"
-			(at 201.93 53.34 0)
+			(at 201.93 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -604,7 +2611,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 201.93 53.34 0)
+			(at 201.93 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -642,6 +2649,519 @@
 			(project "Air_Quality"
 				(path "/10b66b0e-5556-4eed-9620-853004629f71"
 					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:100nF_(104)_±10%_16V")
+		(at 180.34 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f9807a4-8cd8-4d22-ad80-2c3aa2dcda6f")
+		(property "Reference" "C16"
+			(at 178.562 43.434 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 177.546 46.228 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C1525_C0402"
+			(at 170.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 180.467 51.054 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF (104) ±10% 16V"
+			(at 180.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 180.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 180.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "30a3472c-4f54-40ed-95fc-614a50ba44dc")
+		)
+		(pin "1"
+			(uuid "329082f6-fe9b-4452-99c6-5302f5c556d5")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/10b66b0e-5556-4eed-9620-853004629f71"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:10uF_(106)_±10%_16V")
+		(at 175.26 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93803c31-e6a1-43d0-b19a-b289468a1d36")
+		(property "Reference" "C12"
+			(at 172.974 43.434 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 172.974 45.974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C1713_C0805"
+			(at 165.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KOQNNNE_C1713.pdf"
+			(at 175.387 51.054 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF (106) ±10% 16V"
+			(at 175.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1713"
+			(at 175.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 175.26 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3292e855-06fe-4231-ade6-b4b311426c6d")
+		)
+		(pin "2"
+			(uuid "90d28887-3cb5-4cf9-986a-3f7e74ee318c")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/10b66b0e-5556-4eed-9620-853004629f71"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RC0603FR-07100KL")
+		(at 193.04 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be023895-cdd0-455c-9b1c-34b8eb28722f")
+		(property "Reference" "R12"
+			(at 194.818 46.228 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 194.818 43.688 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C14675_R0603"
+			(at 182.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809281124_YAGEO-RC0603FR-07100KL_C14675.pdf"
+			(at 193.167 51.054 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RC0603FR-07100KL"
+			(at 193.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 193.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 193.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44ef1ce7-08e6-4142-93c0-bc0c912be778")
+		)
+		(pin "2"
+			(uuid "f826d0ee-45dc-45a5-bd3f-e85b0e6342ed")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/10b66b0e-5556-4eed-9620-853004629f71"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:10KΩ_(1002)_±1%")
+		(at 156.21 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef03e7c0-608c-4bd2-ba83-589df94669aa")
+		(property "Reference" "R11"
+			(at 156.21 50.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 156.21 52.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C17902_R1206"
+			(at 156.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1002T5E_C17902.pdf"
+			(at 153.924 54.483 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 156.21 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17902"
+			(at 156.21 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 156.21 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8b99333-35f9-40ff-a242-fd1e3affcff2")
+		)
+		(pin "2"
+			(uuid "f5008920-ef45-48b2-a09b-6ed1a1ff9cfd")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/10b66b0e-5556-4eed-9620-853004629f71"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RC0603FR-07100KL")
+		(at 186.69 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb75462d-dff5-43da-a7f8-4363cac1ec36")
+		(property "Reference" "R4"
+			(at 179.07 96.012 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 179.07 98.552 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C14675_R0603"
+			(at 196.85 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809281124_YAGEO-RC0603FR-07100KL_C14675.pdf"
+			(at 186.563 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RC0603FR-07100KL"
+			(at 186.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 186.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 186.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b3b9300-30e1-445f-b3b8-997171159312")
+		)
+		(pin "2"
+			(uuid "f942c4a9-8045-4765-bb50-0da8a62a4b15")
+		)
+		(instances
+			(project "Air_Quality"
+				(path "/10b66b0e-5556-4eed-9620-853004629f71"
+					(reference "R4")
 					(unit 1)
 				)
 			)
